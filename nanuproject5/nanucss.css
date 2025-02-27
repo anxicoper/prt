@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Your Font', sans-serif;
+    color: #your-color;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: #your-color;
+}
+.banner {
+    text-align: center;
+    background-color: #your-banner-color;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #your-cta-color;
+    color: #fff;
+    text-decoration: none;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,81 @@
+/*
+Author: Angelica Corzo
+Date: 10/27/2024
+File Name: styles08.css
+*/
+
+/* Style for body specifies a background color */
+body {
+    background: linear-gradient(to top right, #fff 0%, #6699ff 100%) no-repeat fixed center;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+/* Style for the container element */
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Style rules for form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1em; /* Adds space between input fields */
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-bottom: 2%; /* Adds space between fieldsets */
+    padding: 1em;
+    border: 2px solid #6699ff;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Style for the submit button */
+.btn {
+    border: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5%;
+    background-color: #003399;
+    font-size: 1.25em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* Style for the footer element */
+footer {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Media query for tablet layout */ 
+@media only screen and (min-width: 600px) {
+    form {
+        width: 80%; /* Sets the width for the form */
+        margin: 0 auto; /* Centers the form */
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto; /* Two columns for grid layout */
+        grid-gap: 20px; /* Space between grid items */
+    }
+
+    .btn {
+        grid-column: 1 / span 2; /* Button spans across both columns */
+        padding: 3%; /* Adjust padding for button */
+    }
+}

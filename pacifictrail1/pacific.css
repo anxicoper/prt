@@ -1,0 +1,156 @@
+ /*CSS for Pacific Trails CH4
+Angelic Corzo
+3/10/2024
+*/
+*{box-sizing:border-box;}
+body{
+	background-color:#EAEAEA; 
+	color: #666666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#wrapper {
+	margin-left: auto; margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2046px;
+	background-image:linear-gradient(#ffffff, #90c7e3);
+	background-color: #90c7e3;
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033;
+}
+header{
+/*configure background*/
+	background-color:#002171; 
+	height: 120px;
+	padding-top: 30px;
+	padding-left: 3em;
+	/*text properties*/
+	color: #ffffff;
+	text-align: center;
+	
+}
+header a {
+	text-decoration: none;
+	color: white;
+}
+header a:link{
+ color: white;
+}
+header a:visited{
+ color: white;
+}
+header a:hover{
+ color: #90c7e3;
+}
+h1{
+	marging-botton: 0;
+	marging-top: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+	
+}
+
+nav{
+	float: left;
+	width: 160px;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: .5em;
+	padding-left: .5em;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+nav a:link {
+	color: #5c7fa3
+	
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #A52A2a;
+}
+main{
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	padding: 1px 20px 20px 30px;
+	display: block;	
+	overflow: auto;
+}
+main ul{
+	list-style-image: url("marker.gif");
+}
+
+section{
+	float:left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+h2{
+	color:#1976d2; 
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #cccccc;
+
+}
+h3 {
+font-family: Georgia, "Times New Roman", serif;
+color: #000033;
+}
+
+dt{
+color:#002171; 
+}
+footer{
+	margin-left: 190px;
+	padding: 2em;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+}
+
+.resort{
+	color:#1976d2;
+	font-weight: bold;
+}
+
+#contact{
+	font-size: 98%;
+}
+
+#homehero {
+	margin-left: 190px;
+	height: 300px;
+	background-image: url(coast.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#yurthero{
+	margin-left: 190px;
+	height: 300px;
+	background-image: url("yurt.jpg");
+	baclground-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#trailhero{
+	margin-left: 190px;
+	height: 300px;
+	background-image: url("trail.jpg");
+	baclground-size: 100% 100%;
+	background-repeat: no-repeat;
+}
